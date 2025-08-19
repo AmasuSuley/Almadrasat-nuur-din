@@ -41,7 +41,7 @@ const Home = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-xl md:text-1xl mb-8"
           >
-            Elimu ya dini humuweka mtu karibu na Allah
+            Elimu ya dini humuweka mja karibu na Allah
           </motion.p>
           <motion.div
             initial={{ opacity: 0 }}
@@ -53,7 +53,7 @@ const Home = () => {
               Mafunzo Nuur-Din
             </button>
             <button className="border-2 border-white text-white font-bold py-3 px-8 rounded-lg text-lg hover:bg-white/10 transition">
-              Safari za Wanafunzi
+               Wanafunzi madrasa
             </button>
           </motion.div>
         </div>

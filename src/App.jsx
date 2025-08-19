@@ -1,5 +1,5 @@
 import React from 'react'; 
-import { BrowserRouter as Router } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 import {  Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -20,22 +20,15 @@ function App() {
    <Router>
        <Navbar/>
        <Routes>
-<<<<<<< Updated upstream
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-         <Route path="/gallery" element={<Gallery />} />
-=======
         <Route path="#/" element={<Home />} />
         <Route path="#/about" element={<About />} />
         <Route path="#/contact" element={<Contact />} />
          <Route path="#/gallery" element={<Gallery />} />
->>>>>>> Stashed changes
           <Route path="/admin/login" element={<AdminLogin />} />
         <Route path="/admin/dashboard" element={<AdminDashboard />} />
         <Route path="/admin/posts/create" element={<CreatePost />} />
         <Route path="/admin/posts/edit/:id" element={<EditPost />} />
-         <Route path="/news" element={<News />} />
+         <Route path="#/news" element={<News />} />
          <Route path="/news/:id" element={<PostDetail />} />
         
   
