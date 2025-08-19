@@ -34,11 +34,11 @@ const Navbar = () => {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            <NavLink to="/" text="Home" />
-            <NavLink to="/about" text="About" />
-            <NavLink to="/gallery" text="Gallery" />
-            <NavLink to="/news" text="News" />
-            <NavLink to="/contact" text="Contact" />
+            <NavLink to="" text="Home" />
+            <NavLink to="about" text="About" />
+            <NavLink to="gallery" text="Gallery" />
+            <NavLink to="news" text="News" />
+            <NavLink to="contact" text="Contact" />
            
           </div>
 

@@ -20,16 +20,16 @@ function App() {
    <Router>
        <Navbar/>
        <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-         <Route path="/gallery" element={<Gallery />} />
-          <Route path="/admin/login" element={<AdminLogin />} />
-        <Route path="/admin/dashboard" element={<AdminDashboard />} />
-        <Route path="/admin/posts/create" element={<CreatePost />} />
-        <Route path="/admin/posts/edit/:id" element={<EditPost />} />
-         <Route path="/news" element={<News />} />
-         <Route path="/news/:id" element={<PostDetail />} />
+        <Route path="" element={<Home />} />
+        <Route path="about" element={<About />} />
+        <Route path="contact" element={<Contact />} />
+         <Route path="gallery" element={<Gallery />} />
+          <Route path="admin/login" element={<AdminLogin />} />
+        <Route path="admin/dashboard" element={<AdminDashboard />} />
+        <Route path="admin/posts/create" element={<CreatePost />} />
+        <Route path="admin/posts/edit/:id" element={<EditPost />} />
+         <Route path="news" element={<News />} />
+         <Route path="news/:id" element={<PostDetail />} />
         
   
       </Routes>
