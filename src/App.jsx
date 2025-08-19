@@ -20,10 +20,17 @@ function App() {
    <Router>
        <Navbar/>
        <Routes>
+<<<<<<< Updated upstream
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
          <Route path="/gallery" element={<Gallery />} />
+=======
+        <Route path="#/" element={<Home />} />
+        <Route path="#/about" element={<About />} />
+        <Route path="#/contact" element={<Contact />} />
+         <Route path="#/gallery" element={<Gallery />} />
+>>>>>>> Stashed changes
           <Route path="/admin/login" element={<AdminLogin />} />
         <Route path="/admin/dashboard" element={<AdminDashboard />} />
         <Route path="/admin/posts/create" element={<CreatePost />} />
