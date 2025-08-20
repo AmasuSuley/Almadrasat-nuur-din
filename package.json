@@ -8,6 +8,7 @@
     "dev": "vite",
     "build": "vite build --base=/Almadrasat-nuur-din/",
     "preview": "vite preview",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
