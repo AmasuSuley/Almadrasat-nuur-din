@@ -3,6 +3,7 @@ import React from 'react';
 import { FaChevronLeft, FaChevronRight, FaTimes, FaSearchPlus } from 'react-icons/fa';
 import { AiFillPicture } from 'react-icons/ai';
 
+
 const GallerySection = () => {
   const galleryImages = [
     {
